@@ -16,4 +16,4 @@ mongoose.connect(process.env.URL_MONGO_BD)
 .catch((error)=>console.log(`Error: ${error}`))
 
 
-app.listen(port, ()=> console.log('lisent on port ' + port))
+app.listen(port, ()=> console.log(`Esuchando por http://localhost:${port}`))
